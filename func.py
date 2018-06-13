@@ -252,7 +252,7 @@ def connectDb():
         data_conn = sqlite3.connect('rclient.db')
     else:
         data_conn = pyodbc.connect('DRIVER={SQL Server};SERVER=' + opt.database_path + ',' + opt.database_port
-                                   + ';DATABASE=rclient;UID=sa;PWD=48999948')
+                                   + ';DATABASE=rclient;UID=sa;PWD=123456')
     return data_conn
 
 
